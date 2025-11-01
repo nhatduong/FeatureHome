@@ -13,7 +13,7 @@ let package = Package(
             targets: ["FeatureHome"]),
     ],
         dependencies: [
-        .package(url: "https://github.com/nhatduong/UIComponents.git", branch: "main")
+        .package(url: "https://github.com/nhatduong/UIComponents.git", branch: "main"),
         .package(url: "https://github.com/nhatduong/CommonKit.git", branch: "main")
     ],
     targets: [
