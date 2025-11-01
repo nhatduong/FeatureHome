@@ -14,6 +14,7 @@ let package = Package(
     ],
         dependencies: [
         .package(url: "https://github.com/nhatduong/UIComponents.git", from: "main")
+        .package(url: "https://github.com/nhatduong/CommonKit.git", from: "main")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
